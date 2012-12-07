@@ -1,0 +1,55 @@
+# Unmaps everything. This way, when new features are
+# added, I don't learn about them, say,  by accidentally
+# deleting all of my tabs.
+unmapAll
+
+# Navigation keys
+map j scrollDown
+map k scrollUp
+map h scrollLeft
+map l scrollRight
+map gg scrollToTop
+map G scrollToBottom
+map H scrollToLeft
+map L scrollToRight
+
+# Tabs
+map K nextTab
+map J previousTab
+map t createTab
+map d removeTab
+map D restoreTab
+
+# Copy & Paste
+map yy copyCurrentUrl
+map p openCopiedUrlInCurrentTab
+map P openCopiedUrlInNewTab
+
+# Page functions
+map gs toggleViewSource
+map i enterInsertMode
+map / enterFindMode
+map n performFind
+map N performBackwardsFind
+map gf nextFrame
+
+# Web movement
+map r reload
+map gu goUp
+map < goPrevious
+map > goNext
+map <c-i> goBack
+map <c-o> goForward
+
+# Bookmarks
+map b Vomnibar.activateBookmarks
+map B Vomnibar.activateBookmarksInNewTab
+
+# Hints
+map f LinkHints.activateMode
+map F LinkHints.activateModeToOpenInNewTab
+map <a-f> LinkHints.activateModeWithQueue
+map yf LinkHints.activateModeToCopyLinkUrl
+
+# Misc
+map ? showHelp
